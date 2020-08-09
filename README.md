@@ -16,9 +16,11 @@ Code:
 
 This code utilizes JavaScript, specifically the use of querySelectors, DOM manipulation, objects, user-defined functions, event handlers, and more. This webpage also uses the framework Bootstrap for styling the page, especially the buttons.
 
-![Puppy Quiz Demo 1](./Assets/img_1.png)
-![Puppy Quiz Demo 1](./Assets/img_2.png)
-![Puppy Quiz Demo 1](./Assets/img_3.png)
+![Puppy Quiz Demo 1](Assets/img_1.png)
+
+![Puppy Quiz Demo 2](./Assets/img_2.png)
+
+![Puppy Quiz Demo 3](./Assets/img_3.png)
 
 
 # Links
