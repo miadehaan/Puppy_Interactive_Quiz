@@ -18,7 +18,11 @@ This code utilizes JavaScript, specifically the use of querySelectors, DOM manip
 
 # Links
 
-![QuizDemo1](img_1.png)
+![QuizDemo1](img_1.PNG)
+
+![QuizDemo2](img_2.PNG)
+
+![QuizDemo3](img_3.PNG)
 
 [URL of Deployed Application](https://miadehaan.github.io/Puppy_Interactive_Quiz/)
 
