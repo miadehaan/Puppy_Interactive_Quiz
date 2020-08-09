@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Puppy Quiz</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+
+    <!-- This makes webpage more reposnsive with correct scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <!-- Header & Instructions -->
+    <header>
+        <section class="pageTitle"> <h1>Puppy Quiz!</h1> </section>
+
+        <section>
+            <p class="instructions"> <b>About: </b>This quiz is all about puppies! Test your knowledge and recieve a score at the end.
+                There are 5 multiple-choice questions & you have 60 seconds to complete them. If you answer incorrectly, a point will be 
+                deducted, as well as extra time removed from the clock. Good luck!
+            </p>
+        </section>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <!-- Display Timer and buttons to pause -->
+            <section class="time col-lg-6 col-md-6 col-sm-6">Time: <span class="clock">0</span></section>
+            <section class="score col-lg-6 col-md-6 col-sm-6">Score: <span class="scoreTracker">0</span></section>
+
+            <!-- Question with Multiple Choice Answers -->        
+            <button type="button" class="startQuiz btn btn-outline-dark">Start Quiz!</button>
+            <button type="button" class="resetBtn btn btn-outline-dark">Reset Quiz</button>
+
+            <section class="questionField topSection col-lg-12 col-md-12 col-sm-12">
+                <p class="question"></p>
+                <!-- HighScore title gets displayed here too -->
+            </section>
+
+            <form class="form">
+                <section class="userInputs"></section>
+                <section>
+                    <ol class="scoreBoard">
+                        <!-- highScores -->
+                    </ol>
+                </section>
+            </form>
+                
+            <section class="answers bottomSection col-lg-12 col-md-12 col-sm-12">
+                <ol class="choices">
+            
+                </ol>
+            </section>
+
+        </div>
+    </main>
+
+
+    <footer></footer>
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+    font-family: 'Prompt', sans-serif;;
+    background-color: #FDFFFC;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 200px;
+}
+
+header {
+    width: 100%; 
+    height: auto;
+    margin: auto;
+    margin-bottom: 75px;
+    position: absolute;
+    top: 0; 
+    clear: both;
+    background-color: #CADBC8;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.pageTitle {
+    margin: 25px;
+}
+
+.instructions {
+    margin: 20px;
+    /* width: 80%;
+    text-align: center; */
+}
+
+main { 
+    margin: 250px auto 20px auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+
+}
+
+.startQuiz {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+.resetBtn {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+.time {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 30px;
+    /* border: 1px solid red; */
+}
+
+.score {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 30px;
+    /* border: 1px solid red; */
+}
+
+
+.questionField {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    font-size: 32px;
+    /* border: 1px solid red; */
+}
+
+.answers {
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+
+.choices {
+    margin: 20px;
+}
+
+.allScores {
+    text-align: left;
+    
+}
+
+form {
+    margin: 20px auto 20px auto;
+    
+}
+
+.highscores {
+    text-align: center;
+    margin: 20px;
+}
+
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #CADBC8; 
+    border-top: 1px solid grey;
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+
