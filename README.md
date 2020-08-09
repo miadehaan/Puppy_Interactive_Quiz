@@ -14,14 +14,16 @@ If you answer incorrectly, a point will be deducted, as well as extra time remov
 
 Code:
 
-This code utilizes JavaScript, specifically the use of querySelectors, user-defined functions, and  
+This code utilizes JavaScript, specifically the use of querySelectors, DOM manipulation, objects, user-defined functions, event handlers, and more. This webpage also uses the framework Bootstrap for styling the page, especially the buttons.
 
-![Puppy Quiz Demo]()
+![Puppy Quiz Demo 1](./Assets/img_1.png)
+![Puppy Quiz Demo 1](./Assets/img_2.png)
+![Puppy Quiz Demo 1](./Assets/img_3.png)
 
 
 # Links
 
 
-[URL of Deployed Application](https://github.com/miadehaan/Puppy_Quiz)
+[URL of Deployed Application](https://miadehaan.github.io/Puppy_Interactive_Quiz/)
 
-[GitHub Repository](https://miadehaan.github.io/Puppy_Quiz/)
+[GitHub Repository](https://github.com/miadehaan/Puppy_Interactive_Quiz)
