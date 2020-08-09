@@ -24,6 +24,9 @@ This code utilizes JavaScript, specifically the use of querySelectors, DOM manip
 
 ![Puppy Quiz Demo 3](./Assets/img_3.png)
 
+![QuizDemo1](./Assets/img_1.png)
+
+
 [URL of Deployed Application](https://miadehaan.github.io/Puppy_Interactive_Quiz/)
 
 [GitHub Repository](https://github.com/miadehaan/Puppy_Interactive_Quiz)
