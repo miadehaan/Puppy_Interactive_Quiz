@@ -13,6 +13,7 @@ var currentIndex = 0;
 var score = 0;
 var scoreTitle = "";
 var scoreList = "";
+var quizOver = "";
 var gameTimer;
 var totalTime; //Seconds
 
@@ -53,6 +54,7 @@ resetBtn.addEventListener("click", reset);
 // Display each question and answer choices
 function startQuiz() {
     scoreTitle.innerHTML = "";
+    quizOver.textContent = "";
     formEl.innerHTML = "";
     scoreList.innerHTML = ""; 
     scoreBoard.textContent = "";
@@ -151,7 +153,7 @@ function endQuiz() {
     questionEl.textContent = ""; 
     choices.textContent = "";
     
-    var quizOver = document.createElement("h2");
+    quizOver = document.createElement("h2");
     quizOver.innerHTML = "You've reached the end of the quiz!";
     topSection.appendChild(quizOver);
 
